@@ -53,7 +53,24 @@ class Game{
 
     // Write code to identify and announce winner's name and score
     private void declareWinner(){
-       
+       private void declareWinner(){
+	    	while(add) {
+	    		if(p1>p2&p3 p1 win) {
+	    			win=ture;
+	    			else if(p1<p2&p3 win) 
+	    				win=false;
+	    		}
+	    		if(p2>p3&p1 p2 win) {
+	    			win=ture;
+	    			else if(p2<p3&p1 win)
+	    				win=false;
+	    		}
+	    		if(p3>p1&p2 win) {
+	    			win=ture;
+	    			else if(p3<p1&p2 win)
+	    				win=false;
+	    		}
+	    	}
 
        System.out.println(".... and the WINNER is " + " with score " );
     }
